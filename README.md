@@ -95,6 +95,3 @@ To use the built in server adapters of Eclipse, instead of doing "Run As -> Mave
 * Adjust paths in build.xml/build.properties as per your local configuration
 
 *** End of documentation
-
-
-
