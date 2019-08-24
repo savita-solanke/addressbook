@@ -1,0 +1,14 @@
+node ('master') {
+    stage ('compile'){
+        sh 'echo compilation'
+    }
+    stage ('test'){
+        sh 'echo test'
+    }
+    stage ('pacakge'){
+        sh 'echo package'
+    }
+    stage ('Notification'){
+        mail bcc: '', body: 'hello', cc: '', from: '', replyTo: '', subject: 'build is successfull', to: 'amitkumar2283@gmail.com'
+    }
+}
