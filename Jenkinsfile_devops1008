@@ -1,6 +1,6 @@
 node ('master') {
     stage ('compile'){
-        sh 'echo compilation'
+        sh 'echho compilation'
     }
     stage ('test'){
         sh 'echo test'
