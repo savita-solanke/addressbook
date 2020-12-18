@@ -94,6 +94,8 @@ To use the built in server adapters of Eclipse, instead of doing "Run As -> Mave
  * maven-ant-tasks-2.1.3.jar
 * Adjust paths in build.xml/build.properties as per your local configuration
 
+../sonar-scanner-4.5.0.2216-linux/bin/sonar-^Canner  -Dsonar.projectKey=addressbook -Dsonar.sources=. -Dsonar.host.url=http://localhost:49153 -Dsonar.java.binaries=*/** -Dsonar.login=72ec3b99fbf3e06b40615d5affc3885548296756
+
 *** End of documentation
 
 ** some random text
